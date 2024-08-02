@@ -72,9 +72,10 @@ Enter your choice:
 Follow the on-screen prompts to perform the desired operations.
 
 ## Input Validation
--Name: Must contain only alphabetic characters and spaces.
--Email: Must follow a valid email format.
-##Error Handling
+- Name: Must contain only alphabetic characters and spaces.
+- Email: Must follow a valid email format.
+
+## Error Handling
 The system includes basic error handling for invalid inputs and SQL exceptions. Appropriate messages are displayed to guide the user.
 
 ## Closing
