@@ -83,9 +83,9 @@ public class PUMIS {
 
     // Initialize MySQL database connection
     private static void initializeDatabase() throws SQLException {
-        String url = "jdbc:mysql://localhost:3306/pranshu";
+        String url = "jdbc:mysql://localhost:3306/[Database_name]";
         String user = "root";
-        String password = "pranshu@2004";
+        String password = "[Password]";
         connection = DriverManager.getConnection(url, user, password);
 
         try (Statement stmt = connection.createStatement()) {
